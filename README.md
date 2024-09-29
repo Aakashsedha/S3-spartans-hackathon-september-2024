@@ -1,26 +1,63 @@
-# Hackathon-september-2024
+# Hackathon - September 2024  
+## S3 Spartans: Resume Screening Solution  
+### Leveraging Power Automate for Automated Resume Processing  
 
-## Guidelines 
-- Teams have to create a fork of this particular repo on start of hackathon.
-- Rename the repo as per the team name when you create the fork
-- Once you select the problem statement that you are going to work on, create a file as initial.md and give your team name, team members name and the problem statement you are trying to solve. Do this within first one hour of starting the hackathon. 
-- At the end of hackathon timing, STGI team will create a copy all the repos that are forked and only that will be used for evaluation. So ensure the code is committed to the forked repo only.
-- Do continuous commits to your own forks so that we can evaluate the commit history as well.
-- You can place your presentation and videos if any within the same repo by creating a new folder.
+### Situation  
+Organizations often receive numerous resumes via email, making the screening process time-consuming and prone to human error. Our team, S3 Spartans, developed an automated solution using Power Automate to streamline the resume screening process efficiently.
+
+### Task  
+The objective was to create a robust and automated pipeline that extracts resumes from emails, processes the data using a trained AI model, and stores the results in a structured format, enhancing the screening process's speed and accuracy.
+
+### Action  
+
+1. **Automated PDF Extraction from Emails**  
+   - Emails containing resumes are automatically identified, and PDFs are extracted.
+   - The extracted PDFs are then stored in a designated folder in OneDrive after confirming the email contains a valid PDF attachment.
+
+   ![image](https://github.com/user-attachments/assets/a2e64dcc-31e4-40a4-84a6-dde909dfc5d3)
+
+2. **Data Extraction Using AI Model**  
+   - A custom AI model, trained on demo forms, extracts key information from the PDF resumes.
+   - The model is integrated within Power Automate, ensuring accurate data extraction tailored to the specific requirements of resume screening.
+
+   ![image](https://github.com/user-attachments/assets/e6f8184a-11a0-4a39-afd7-b541a4396893)
+
+3. **Model Training and Integration**  
+   - The AI model was rigorously trained and tested within Power Automate to ensure it met the expected performance standards.
+
+   ![image](https://github.com/user-attachments/assets/5f2dbf1c-ade7-4ab2-ae97-afc5d4bf2f48)
+
+4. **Testing and Validation**  
+   - The solution was tested through automated replies to the original sender, confirming successful data extraction and processing.
+
+   ![image](https://github.com/user-attachments/assets/3e707d98-afaa-40a9-82d4-c556f425ba0a)
+
+5. **Mapping Extracted Data to Excel**  
+   - Extracted data is automatically mapped to a structured Excel format, facilitating easy review and analysis by recruiters.
+
+   ![image](https://github.com/user-attachments/assets/7adc50c6-398c-46ab-9839-acce164a64db)
+
+   ![image](https://github.com/user-attachments/assets/d2fb2a84-ad48-4fba-ac09-7ca8d4334678)
+
+6. **Orchestrated Data Extraction and Form Submission**  
+   - A flow was orchestrated to populate the required forms with the extracted data.
+   - The process was completed by submitting the forms, ensuring a seamless end-to-end automation workflow.
+
+   ![image](https://github.com/user-attachments/assets/d87e153f-c9b6-45dd-bd63-8cc860c5cfe5)
+
+### Result  
+Our solution significantly reduces manual effort and time spent on resume screening. By automating data extraction and processing, organizations can quickly filter and review candidate profiles, improving overall recruitment efficiency.
 
 
-### All the very best..!! Happy Hacking..!! 
 
 
 
-## Topics 
 
-Team can chose ONE of the topic from below and work on that.
 
-- [Scenario - 1: Image Forgery](ImageForgery.md)
-
-- [Scenario - 2: Infra Monitoring Tool](InfraMonitor/InfraMonitor.md)
-
-- [Scenario - 3: Resume Screener](ResumeScreening.md)
-  
-- [Scenario - 4: KYC Platform](KYCPlatform.md)
+## Team Mates
+Aakashdeep Singh Sedha
+-->solution architect
+Pranzal Sharma
+--> mapping data to excel
+Rahul-->Form automate
+Ashman Arora -->Ideation
